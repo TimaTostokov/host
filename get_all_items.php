@@ -24,7 +24,9 @@ if ($result->num_rows > 0) {
     echo json_encode($data);
 
 } else {
-    echo json_encode(array("message" => "List is empty"));
+    $messageArray = array();
+    $messageArray[] = array("name" => "List is empty", "tel" => 0, "time" => "12:00", "age" => "17");
+    echo json_encode($messageArray);
 }
 
 $connect->close();

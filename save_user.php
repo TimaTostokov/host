@@ -18,7 +18,7 @@ $name = "Temirlan";
 $tel = "5353";
 $time = "12:15";
 $age = "17";
-//
+
 //$name = mysql_escape_string($connect, $data['name']);
 //$tel = mysql_escape_string($connect, $data['tel']);
 //$time = mysql_escape_string($connect, $data['time']);
